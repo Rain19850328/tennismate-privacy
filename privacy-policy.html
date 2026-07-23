@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>테니스메이트 개인정보처리방침</title>
+<style>
+  :root{--navy:#0D3B66;--turq:#2CC3C7;--ink:#122E4C;--muted:#5B6B7D;--bg:#F2F4F7;--line:#E4EAF1}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic','맑은 고딕',system-ui,sans-serif;line-height:1.7;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:720px;margin:0 auto;padding:0 18px 64px}
+  header{background:linear-gradient(135deg,var(--navy),#1677C9 55%,var(--turq));color:#fff;border-radius:0 0 20px 20px;padding:30px 20px 26px}
+  header .in{max-width:720px;margin:0 auto}
+  h1{margin:0;font-size:22px;font-weight:800;letter-spacing:-.01em}
+  header p{margin:8px 0 0;font-size:13px;color:#E7FBFB}
+  .card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px 20px;margin-top:20px;box-shadow:0 2px 12px rgba(13,59,102,.06)}
+  h2{font-size:16px;font-weight:800;margin:22px 0 6px;color:var(--navy);display:flex;align-items:center;gap:8px}
+  h2::before{content:"";width:5px;height:16px;border-radius:3px;background:linear-gradient(var(--turq),#1677C9)}
+  h2:first-child{margin-top:0}
+  p,li{font-size:14.5px;color:var(--ink)}
+  ul{padding-left:20px;margin:6px 0}
+  li{margin:3px 0}
+  b{color:var(--navy)}
+  .muted{color:var(--muted);font-size:13px}
+  .fill{background:#FFF6CC;border:1px dashed #E7C200;border-radius:8px;padding:2px 8px;font-weight:700}
+  hr{border:none;border-top:1px solid var(--line);margin:22px 0}
+  footer{text-align:center;color:var(--muted);font-size:12.5px;margin-top:22px}
+</style>
+</head>
+<body>
+<header><div class="in"><h1>테니스메이트 개인정보처리방침</h1><p>TENNIS MATE · 시행일 2026-07-22</p></div></header>
+<div class="wrap">
+  <div class="card">
+    <p>테니스메이트(이하 "앱")는 테니스 동호회의 회원·경기·순위를 관리하고 회원 간에 공유하기 위한 앱입니다. 본 방침은 앱이 어떤 정보를 어떻게 다루는지 쉽게 설명합니다.</p>
+
+    <h2>1. 수집하는 정보</h2>
+    <p>앱은 다음 정보를 <b>이용자가 직접 입력할 때에만</b> 저장합니다.</p>
+    <ul>
+      <li><b>회원 프로필</b>: 이름, 사진(선택), 성별(선택), 전화번호(선택), 년생(선택), 구력(선택), NTRP(선택)</li>
+      <li><b>활동 데이터</b>: 클럽 이름, 경기·대진·점수·순위, 팀 구성, 토너먼트 기록</li>
+      <li><b>공유 식별자</b>: 클럽 참여코드(6자리), 익명 인증용 무작위 식별자(개인을 특정하지 않는 임의의 값)</li>
+    </ul>
+    <p class="muted">위치정보·연락처 목록·광고 식별자는 수집하지 않으며, 이메일·비밀번호 회원가입이 없습니다.</p>
+
+    <h2>2. 정보를 사용하는 목적</h2>
+    <ul>
+      <li>동호회의 회원·경기·순위를 기록하고 보여주기 위해</li>
+      <li><b>공유 클럽</b>의 경우, 참여코드를 가진 회원들에게 같은 데이터를 실시간으로 보여주기 위해</li>
+    </ul>
+
+    <h2>3. 정보의 저장 위치</h2>
+    <ul>
+      <li><b>일반(내 기기) 클럽</b>: 데이터가 <b>이용자의 기기 안에만</b> 저장되며 외부로 전송되지 않습니다.</li>
+      <li><b>공유 클럽</b>: 데이터가 클라우드 데이터베이스(<b>Supabase</b>, 서버 리전: 대한민국 서울)에 저장되어 같은 참여코드를 가진 사람들과 공유됩니다. 전송 구간은 HTTPS로 암호화됩니다.</li>
+    </ul>
+
+    <h2>4. 정보의 공유(제3자 제공)</h2>
+    <ul>
+      <li>공유 클럽 데이터는 <b>참여코드를 아는 사람</b>이 앱에서 조회·수정할 수 있습니다(취미용 공유 모델).</li>
+      <li>이용자 정보를 <b>광고·마케팅 목적으로 판매하거나 제3자에게 제공하지 않습니다.</b> 광고 SDK·분석(트래킹) 도구를 사용하지 않습니다.</li>
+      <li>클라우드 저장 위탁 처리자: <b>Supabase Inc.</b>(데이터베이스 호스팅)</li>
+    </ul>
+
+    <h2>5. 보관 및 삭제</h2>
+    <ul>
+      <li>앱에서 언제든지 삭제 가능: <b>회원 삭제, 팀·경기 삭제, 시즌 초기화, 클럽 초기화, 공유 클럽 나가기</b>.</li>
+      <li>공유 클럽 서버 데이터의 완전 삭제를 원하시면 아래 문의처로 <b>참여코드와 함께</b> 요청해 주세요.</li>
+      <li>별도 보관 기간을 두지 않으며, 이용자가 삭제하면 해당 데이터는 제거됩니다.</li>
+    </ul>
+
+    <h2>6. 아동의 개인정보</h2>
+    <p>특정 연령을 대상으로 하지 않으며, 만 14세 미만 아동의 개인정보를 고의로 수집하지 않습니다.</p>
+
+    <h2>7. 이용자의 권리</h2>
+    <p>이용자는 자신의 정보를 열람·수정·삭제할 수 있으며, 대부분 앱 내에서 직접 처리할 수 있습니다.</p>
+
+    <h2>8. 방침의 변경</h2>
+    <p>본 방침이 변경되면 앱 또는 본 페이지를 통해 안내합니다.</p>
+
+    <h2>9. 문의처</h2>
+    <p>개인정보 관련 문의·삭제 요청: <span class="fill">여기에 문의 이메일 주소를 입력하세요</span></p>
+
+    <hr>
+    <p class="muted">운영자: <span class="fill">여기에 운영자/동호회 이름을 입력하세요</span></p>
+  </div>
+  <footer>© 테니스메이트 · TENNIS MATE</footer>
+</div>
+</body>
+</html>
